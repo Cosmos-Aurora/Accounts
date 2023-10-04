@@ -1,0 +1,28 @@
+{
+  "name": "@ajayos/account-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keerthana-bot/Accounts.git"
+  },
+  "author": "Ajay o s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keerthana-bot/Accounts/issues"
+  },
+  "homepage": "https://github.com/keerthana-bot/Accounts#readme",
+  "dependencies": {
+    "@ajayos/nodedb": "^1.1.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.3",
+    "uuid": "^9.0.1"
+  }
+}
