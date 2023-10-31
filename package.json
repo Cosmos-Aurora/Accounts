@@ -4,24 +4,43 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "dev:format": "prettier --write .",
+    "dev:prettier": "prettier --write \"**/*.{js,json,css,md}\"",
+    "dev:release": "standard-version && auto-changelog --unreleased"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keerthana-bot/Accounts.git"
   },
-  "author": "Ajay o s",
-  "license": "ISC",
+  "keywords": [
+    "node",
+    "package",
+    "Ajay o s",
+    "auto-generated"
+  ],
+  "author": {
+    "name": "Ajay o s",
+    "email": "ajayosakhub@gmail.com"
+  },
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/keerthana-bot/Accounts/issues"
   },
   "homepage": "https://github.com/keerthana-bot/Accounts#readme",
   "dependencies": {
+    "@ajayos/code-manager": "^1.3.12",
+    "@ajayos/nodedb": "^1.1.0",
+    "@octokit/rest": "^20.0.2",
+    "axios": "^1.5.1",
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.5.3",
+    "nodemailer": "^6.9.6",
+    "request": "^2.88.2",
+    "unique-names-generator": "^4.7.1",
     "uuid": "^9.0.1"
   }
 }
